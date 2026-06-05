@@ -38,6 +38,7 @@ export default function Navbar() {
         {/* Resume Button */}
         <Link
           href="/resume.pdf"
+          download
           className="hidden md:block bg-[rgb(0,222,238)] text-black px-4 py-2 rounded-md font-semibold hover:opacity-90"
         >
           Resume

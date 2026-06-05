@@ -27,13 +27,17 @@ export default function Hero() {
               Download Resume
             </a>
 
-            <button className="border border-[rgb(0,222,238)] text-[rgb(0,222,238)]  bg-[#001418]/20 px-6 py-3 rounded-md hover:scale-105 transition">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              className="border border-[rgb(0,222,238)] text-[rgb(0,222,238)]  bg-[#001418]/20 px-6 py-3 rounded-md hover:scale-105 transition"
+            >
               View Resume
-            </button>
+            </a>
           </div>
           <div className="mt-6 flex flex-wrap gap-3 justify-center md:justify-start">
             <a
-              href="https://github.com"
+              href="https://github.com/omarfaruq2806"
               target="_blank"
               className="px-4 py-2 rounded-md border border-white/10 text-gray-300 hover:text-[rgb(0,222,238)] hover:border-[rgb(0,222,238)] transition"
             >
@@ -41,7 +45,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/omarfaruk28/"
               target="_blank"
               className="px-4 py-2 rounded-md border border-white/10 text-gray-300 hover:text-[rgb(0,222,238)] hover:border-[rgb(0,222,238)] transition"
             >
@@ -49,7 +53,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/omarfaruk2806"
               target="_blank"
               className="px-4 py-2 rounded-md border border-white/10 text-gray-300 hover:text-[rgb(0,222,238)] hover:border-[rgb(0,222,238)] transition"
             >
