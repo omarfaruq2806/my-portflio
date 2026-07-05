@@ -1,5 +1,59 @@
 const projects = [
   {
+    id: "goventure",
+    name: "GoVenture",
+    image: "/goventure.png",
+
+    description:
+      "GoVenture is a full-stack online ticket booking platform that enables users to search, book, and manage travel tickets while providing dedicated dashboards for users, vendors, and administrators with secure role-based access.",
+
+    tech: [
+      "Next.js",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Express.js",
+      "MongoDB",
+      "Better Auth",
+      "Stripe",
+    ],
+
+    live: "https://go-venture-kappa.vercel.app/",
+    client: "https://github.com/omarfaruq2806/Go-Venture",
+
+    challenges:
+      "Building a secure role-based authentication system, integrating Stripe payments, and managing separate dashboards for users, vendors, and administrators while maintaining a smooth user experience.",
+
+    improvements:
+      "Future improvements include ticket cancellation and refund management, real-time seat availability, booking notifications, multilingual support, and AI-powered travel recommendations.",
+  },
+  {
+    id: "mini-erp",
+    name: "Mini ERP",
+    image: "/mini-erp.png",
+
+    description:
+      "Mini ERP is a cloud-based inventory management system that helps businesses manage products, sales, purchases, customers, and suppliers through a modern dashboard with real-time inventory tracking.",
+
+    tech: [
+      "React.js",
+      "Vite",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "PostgreSQL",
+      "shadcn/ui",
+    ],
+
+    live: "https://erp-xtvd.vercel.app/",
+    client: "https://github.com/omarfaruq2806/mini-erp",
+
+    challenges:
+      "Implementing real-time inventory updates after sales and purchases while maintaining data consistency and integrating Supabase Authentication with a responsive dashboard.",
+
+    improvements:
+      "Future improvements include barcode scanning, invoice generation, sales analytics, multi-branch inventory management, and role-based access control for different staff members.",
+  },
+  {
     id: "studynook",
     name: "StudyNook",
     image: "/studynook.png",
