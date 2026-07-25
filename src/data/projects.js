@@ -21,8 +21,8 @@ const projects = [
       "TanStack React Query",
     ],
 
-    live: "YOUR_LIVE_URL",
-    client: "YOUR_GITHUB_URL",
+    live: "https://nova-library-navy.vercel.app/",
+    client: "https://github.com/omarfaruq2806/nova-library",
 
     challenges:
       "Implementing AI-powered book summarization and conversational book chat using LangChain and Google Gemini while handling secure PDF uploads, storage management, and role-based access control.",
@@ -50,8 +50,8 @@ const projects = [
       "Better Auth",
     ],
 
-    live: "YOUR_LIVE_URL",
-    client: "YOUR_GITHUB_URL",
+    live: "https://story-vault-rho.vercel.app/",
+    client: "https://github.com/omarfaruq2806/story-vault",
 
     challenges:
       "Building advanced filtering, searching, pagination, and story management features while implementing secure authentication and maintaining a responsive, interactive user experience.",
