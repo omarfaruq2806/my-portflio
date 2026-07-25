@@ -1,5 +1,65 @@
 const projects = [
   {
+    id: "novalibrary",
+    name: "NovaLibrary",
+    image: "/nova.png",
+
+    description:
+      "NovaLibrary is an AI-powered digital library platform that enables users to upload, explore, summarize, and chat with books using Google Gemini AI while providing secure authentication and an intuitive reading experience.",
+
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Express.js",
+      "MongoDB",
+      "Better Auth",
+      "Supabase Storage",
+      "LangChain",
+      "Google Gemini API",
+      "TanStack React Query",
+    ],
+
+    live: "YOUR_LIVE_URL",
+    client: "YOUR_GITHUB_URL",
+
+    challenges:
+      "Implementing AI-powered book summarization and conversational book chat using LangChain and Google Gemini while handling secure PDF uploads, storage management, and role-based access control.",
+
+    improvements:
+      "Future improvements include OCR support for scanned PDFs, personalized reading recommendations, bookmark and annotation features, multilingual AI summaries, and collaborative reading spaces.",
+  },
+  {
+    id: "storyvault",
+    name: "StoryVault",
+    image: "/storyvault.png",
+
+    description:
+      "StoryVault is a full-stack story publishing platform where users can discover, publish, search, and manage stories through a modern responsive interface with secure authentication and personalized dashboards.",
+
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Swiper",
+      "React Hook Form",
+      "Express.js",
+      "MongoDB",
+      "Better Auth",
+    ],
+
+    live: "YOUR_LIVE_URL",
+    client: "YOUR_GITHUB_URL",
+
+    challenges:
+      "Building advanced filtering, searching, pagination, and story management features while implementing secure authentication and maintaining a responsive, interactive user experience.",
+
+    improvements:
+      "Future improvements include AI-assisted story writing, reader comments and ratings, bookmark and reading history, premium subscription features, and personalized story recommendations.",
+  },
+  {
     id: "goventure",
     name: "GoVenture",
     image: "/goventure.png",
@@ -29,7 +89,7 @@ const projects = [
   {
     id: "mini-erp",
     name: "Mini ERP",
-    image: "/mini-erp.png",
+    image: "/minierp.png",
 
     description:
       "Mini ERP is a cloud-based inventory management system that helps businesses manage products, sales, purchases, customers, and suppliers through a modern dashboard with real-time inventory tracking.",

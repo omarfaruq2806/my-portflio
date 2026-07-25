@@ -20,12 +20,13 @@ export default function Skills() {
               Frontend
             </h3>
 
-            <div className="space-y-3 text-gray-300">
-              <Skill name="HTML" level="90%" />
-              <Skill name="CSS / Tailwind" level="85%" />
-              <Skill name="JavaScript" level="80%" />
-              <Skill name="React" level="85%" />
-              <Skill name="Next.js" level="75%" />
+            <div className="space-y-3">
+              <Skill name="TypeScript" level="80%" />
+              <Skill name="JavaScript (ES6+)" level="88%" />
+              <Skill name="React.js" level="90%" />
+              <Skill name="Next.js" level="88%" />
+              <Skill name="HTML5" level="95%" />
+              <Skill name="CSS3 / Tailwind CSS" level="90%" />
             </div>
           </div>
 
@@ -35,10 +36,12 @@ export default function Skills() {
               Backend
             </h3>
 
-            <div className="space-y-3 text-gray-300">
+            <div className="space-y-3">
+              <Skill name="Express.js" level="80%" />
+              <Skill name="MongoDB" level="78%" />
+              <Skill name="Better Auth" level="80%" />
+              <Skill name="REST API" level="85%" />
               <Skill name="Node.js" level="70%" />
-              <Skill name="Express" level="65%" />
-              <Skill name="MongoDB" level="60%" />
             </div>
           </div>
 
@@ -48,11 +51,11 @@ export default function Skills() {
               Tools
             </h3>
 
-            <div className="space-y-3 text-gray-300">
-              <Skill name="Git / GitHub" level="80%" />
-              <Skill name="VS Code" level="90%" />
-              <Skill name="Figma" level="70%" />
-              <Skill name="Vercel" level="75%" />
+            <div className="space-y-3">
+              <Skill name="Git & GitHub" level="90%" />
+              <Skill name="VS Code" level="95%" />
+              <Skill name="Vercel" level="85%" />
+              <Skill name="Figma" level="75%" />
             </div>
           </div>
         </div>

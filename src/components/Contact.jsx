@@ -45,7 +45,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://wa.me/880182670257"
+            href="https://wa.me/8801842670257"
             target="_blank"
             className="px-6 py-3 rounded-md border border-white/20 hover:border-[rgb(0,222,238)]"
           >

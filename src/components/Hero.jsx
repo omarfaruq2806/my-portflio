@@ -14,8 +14,14 @@ export default function Hero() {
             Hi, I'm <span className="text-[rgb(0,222,238)]">Omar</span>
           </h1>
 
-          <p className="mt-4 text-gray-400 text-lg">
-            Frontend Developer | React | Next.js
+          <p className="mt-4 text-gray-400 text-lg leading-relaxed">
+            Full Stack Web Developer | React | Next.js | Express.js
+            <br />
+            Building fast, responsive, and scalable web applications with modern
+            technologies.
+            <br />
+            Passionate about AI integration, clean architecture, and exceptional
+            user experiences.
           </p>
 
           <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center md:justify-start">
